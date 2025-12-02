@@ -44,6 +44,7 @@ const Login = ({
 
   // Combine demo users with registered users
   const allUsers = [...demoUsers, ...registeredUsers];
+  
 
   const handleRegister = () => {
     onClose();
